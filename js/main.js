@@ -28,11 +28,9 @@ $yellowSection.waypoint(function () {
 
 
 $shipSection.waypoint(function () {
-	$ship1.addClass('js-ship-odd-fade');
-	$ship3.addClass('js-ship-odd-fade');
+	$ship1.addClass('js-ship-fade');
+	$ship2.addClass('js-ship-fade');
+	$ship3.addClass('js-ship-fade');
+	$ship4.addClass('js-ship-fade');
 }, { offset: '50%' });
 
-$shipSection.waypoint(function () {
-	$ship2.addClass('js-ship-even-fade');
-	$ship4.addClass('js-ship-even-fade');
-}, { offset: '50%' });

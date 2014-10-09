@@ -49,7 +49,7 @@ section {
 }
 
 .js-shuttle-fade {
-	-webkit-animation: shuttle-fade .5s linear forwards;
+	-webkit-animation: shuttle-fade .7s linear forwards;
 }
 
 @-webkit-keyframes shuttle-fade {
@@ -66,7 +66,8 @@ section {
 
 .ship1,
 .ship3 {
-	width: 150px;
+	width: 125px;
+	padding: 1.5rem;
 	position: relative;
 	display: inline-block;
 	opacity: 0;
@@ -75,15 +76,16 @@ section {
 
 .ship2,
 .ship4 {
-	width: 150px;
+	width: 125px;
+	padding: 1.5rem;
 	position: relative;
 	display: inline-block;
 	opacity: 0;
 	top: 7em;
 }
 
-.js-ship-odd-fade {
-	-webkit-animation: ship-odd-fade .5s linear forwards;
+.js-ship-fade {
+	-webkit-animation: ship-odd-fade .7s linear forwards;
 }
 
 @-webkit-keyframes ship-odd-fade{
@@ -91,13 +93,4 @@ section {
 	100% {opacity: 1;
 		top: 0;}
 }
-
-.js-ship-even-fade {
-	-webkit-animation: ship-even-fade .5s linear forwards;
-}
-
-@-webkit-keyframes ship-even-fade{
-	0%	{opacity: 0;}
-	100% {opacity: 1;
-		top: 0;}
 }
