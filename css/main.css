@@ -22,3 +22,17 @@ section {
 	background: transparent url("../img/mars-pano.jpg") no-repeat center top;
 	background-size: cover;
 }
+
+.dipper {
+	width: 300px;
+	opacity: 0;
+}
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;
+}
+
+@-webkit-keyframes dipper-fade {
+	0%	{opacity: 0;}
+	100% {opacity: 1;}
+}
