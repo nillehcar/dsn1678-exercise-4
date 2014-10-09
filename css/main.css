@@ -36,3 +36,25 @@ section {
 	0%	{opacity: 0;}
 	100% {opacity: 1;}
 }
+
+.yellow-section {
+	background-color: #ffa537;
+}
+
+.shuttle {
+	width: 200px;
+	opacity: 0;
+	position: relative;
+	top: 5em;
+}
+
+.js-shuttle-fade {
+	-webkit-animation: shuttle-fade 1s linear forwards;
+}
+
+@-webkit-keyframes shuttle-fade {
+	0%	{opacity: 0;}
+	100% {opacity: 1;
+		top: 0;}
+}
+
